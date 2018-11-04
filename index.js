@@ -5,8 +5,9 @@ const returnFirstTwoDrivers = function (drivers) {
       arr.push(drivers[1])
 
   return arr;
-
 }
+
+
 const returnLastTwoDrivers = function (drivers){
   let arr = [];
   arr.push(drivers[drivers.length-2])
