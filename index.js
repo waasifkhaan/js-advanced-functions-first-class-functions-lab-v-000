@@ -1,10 +1,6 @@
 // Code your solution in this file!
 const returnFirstTwoDrivers = function (drivers) {
-      let arr = [];
-      arr.push(drivers[0])
-      arr.push(drivers[1])
-
-  return arr;
+  return drivers.splice(0,2)
 }
 
 
