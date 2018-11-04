@@ -5,11 +5,8 @@ const returnFirstTwoDrivers = function (drivers) {
 
 
 const returnLastTwoDrivers = function (drivers){
-  let arr = [];
-  arr.push(drivers[drivers.length-2])
-  arr.push(drivers[drivers.length-1])
+  return drivers.splice(0,-2)
 
-  return arr;
 }
 selectingDrivers = [returnFirstTwoDrivers,returnLastTwoDrivers]
 
