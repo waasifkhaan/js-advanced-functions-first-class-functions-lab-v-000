@@ -5,7 +5,7 @@ const returnFirstTwoDrivers = function (drivers) {
 
 
 const returnLastTwoDrivers = function (drivers){
-  return drivers.splice(0,-2)
+  return drivers.splice(-2)
 
 }
 selectingDrivers = [returnFirstTwoDrivers,returnLastTwoDrivers]
